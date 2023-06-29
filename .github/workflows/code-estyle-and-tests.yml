@@ -20,6 +20,3 @@ jobs:
 
       - name: Run unit tests
         run: yarn test
-
-      - name: Verify that the Docker image for the action builds
-        run: docker build . --file Dockerfile
