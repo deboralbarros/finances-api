@@ -30,7 +30,7 @@
     "camelcase": "off",
     "default-case": "off",
     "@typescript-eslint/no-non-null-assertion": "off",
-    "no-useless-constructor": "warn",
+    "no-useless-constructor": "off",
     "no-redeclare": "warn",
     "@typescript-eslint/camelcase": "off",
     "@typescript-eslint/no-namespace": "off",
@@ -68,7 +68,9 @@
   },
   "settings": {
     "import/resolver": {
-      "typescript": {}
+      "node": {
+        "extensions": [".js", ".ts"]
+      }
     }
   }
 }
