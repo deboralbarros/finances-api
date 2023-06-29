@@ -12,7 +12,7 @@ jobs:
 
       - uses: actions/setup-node@v3
         with:
-          node-version: '16.13.1'
+          node-version: 'latest'
           check-latest: true
 
       - name: Install dependencies
